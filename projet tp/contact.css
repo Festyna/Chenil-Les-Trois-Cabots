@@ -1,0 +1,75 @@
+body
+{
+background-image: url(eclr-husky-chien-froid.jpg);
+background-size: cover;
+background-position: center;
+font-family: sans-serif;
+}
+/* Contact */
+#contact {
+    background:transparent;
+    padding: 120px 40px;
+    border: solid 9px;
+  border-image: linear-gradient(#01d5fa, #ff04c4) 30;
+  
+}
+
+#contact .section-title {
+    color: rgb(0, 208, 255);
+    
+}
+
+#contact .contact-form {
+    margin: 50;
+    width: 50vw;
+}
+
+#contact .contact-form label {
+    color: white;
+}
+
+#contact .contact-form .text-input-label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contact .contact-form input[type="text"],
+#contact .contact-form input[type="email"],
+#contact .contact-form textarea {
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    width: 87%;
+}
+
+#contact .contact-form .submit-button {
+    width: 100px;
+    margin: 50px auto;
+    display: block;
+    border: 2px solid white;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+#contact .contact-form .submit-button:hover {
+    background-color: white;
+    color: #151515;
+    cursor: pointer;
+}
+
+/* Pied de page */
+footer {
+    background-color: #3a3a3a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+.section-title{text-align: center;
+ width: 800px;
+}
